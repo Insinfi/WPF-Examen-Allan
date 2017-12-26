@@ -6,7 +6,20 @@
         xmlns:local="clr-namespace:WPF_Examen_Allan"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+    <DockPanel LastChildFill="False" >
+        <Menu HorizontalAlignment="Left" Height="20" DockPanel.Dock="Top" Width="525">
+            <MenuItem Height="20" Header="Gestion">
+                <MenuItem Header="Create"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <StackPanel Orientation="Horizontal">
+            <ListBox Width="125px" Height="300">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </StackPanel>
+    </DockPanel>
 </Window>
